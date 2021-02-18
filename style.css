@@ -1,0 +1,207 @@
+* {
+    font-family: 'Montserrat', sans-serif; /*for paragraphs*/
+    font-family: 'Pacifico', cursive; /* for headings */
+    font-family: 'Truculenta', sans-serif;
+}
+body {
+    font-family: 'Pacifico', cursive;
+    color: #2e2e2e;
+    background-color: #f3f9fc;
+    font-size: 90%;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+body hr {
+    border: none;
+    height:10px;
+    background-image: url(./imgs/hr-img.png);
+}
+/*//////////////////////////////////////////////navbar section////////////////////////////////////////////////////////*/
+body header nav {
+    overflow: hidden;
+    background-color: #f3f9fc;
+    height: 80px;
+}
+body header nav img,
+body header nav h1,
+body header nav span {
+    float: left;
+    width: auto;
+}
+body header nav section img[alt="Logo"]{
+    position: relative;
+    top: 10px;
+    left: 35px;
+    width: 5%;
+}
+body header nav section h1{
+    font-size: 40px;
+    position: relative;
+    top: -50px;
+    left: 50px;
+    font-family: 'Pacifico', cursive;
+}
+body header nav section span {
+    position: relative;
+    font-size: small;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    top: 50px;
+    left: -100px;
+    font-stretch: extra-condensed;
+    text-transform: uppercase;
+}
+body header nav section:nth-child(2) section:first-child img{
+    float: right;
+    margin-top: 20px;
+    width: 3%;
+    padding: 1px;
+    transition: 0.5s ease;
+}
+body header nav section:nth-child(2) section:first-child img:hover{
+    width: 4%;
+}
+body header nav section:nth-child(2) section:first-child img:nth-child(2){
+    padding-left: 30px;
+}
+/*////////////////////////////////////////////////Body section////////////////////////////////////////////////////////*/
+body section{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+body section section:first-child h1{
+    color: #2e2e2e;
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+    position: relative;
+    width: 100%;
+    text-align: left;
+}
+body section section section:first-child span{
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-stretch: extra-condensed;
+    margin-top: -75px;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: left;
+}
+body section section section:nth-child(2){
+    float: right;
+    font-size: 15px;
+    width: auto;
+    padding: 2px;
+    margin-top: -40px;
+    cursor: pointer;
+}
+body section img[src="./imgs/choco-pizza.png"]{
+    width: 100%;
+    margin-bottom: 2%;
+}
+body section section:nth-child(3){
+    font-size: 35px;
+    text-align: left;
+    text-indent: 5%;
+    padding: 20px;
+}
+body section section:nth-child(3) p{
+    padding: 20px;
+}
+body section  section:nth-child(4) {
+    align-items: center;
+    position: absolute;
+    background-image: url(./imgs/list-bg.png);
+    width: 45%;
+    margin-bottom: 5%;
+    left: 27%;
+}
+body section  section:nth-child(4) > ul{
+    width: 35%;
+    padding-left: 10%;
+    text-align: left;
+    text-decoration: none;
+    font-size: 25px;
+    float: left;
+    list-style: square;
+}
+body section  section:nth-child(4) ul:last-child li:nth-child(2),
+body section  section:nth-child(4) ul:last-child li:nth-child(3) {
+    text-decoration: line-through;
+    color: rgba(41, 38, 36, 0.5);
+}
+body section > section:nth-child(6){
+    width: 100%;
+    position: relative ;
+    bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 400px;
+    padding-bottom: 400px;
+}
+body section hr {
+    position: relative;
+    top: 400px;
+}
+body section:nth-child(6) img[src="./imgs/van-pic.png"]{
+    border-radius: 50%;
+    float: left;
+    padding: 10px;
+}
+body section:nth-child(6) h2{
+    float: left;
+}
+body section:nth-child(6) p{
+    float: left;
+    position: relative;
+    font-size: 20px;
+    left: -145px;
+    top: 40px;
+    width: 60%;
+    text-align: left;
+}
+body section:nth-child(6) button{
+    background-color: #eb5b5b;
+    border-style: none;
+    color: #e2e2e2;
+    text-transform: uppercase;
+    padding: 20px;
+    width: 25%;
+    float: right;
+    top: 20px;
+    position: absolute;
+    right: 10px;
+    transition: 0.5s ease;
+    font-size: 20px;
+}
+body section:nth-child(6) button:hover{
+    background-color: #da4b4b6c;
+    color: #2e2e2e;
+    font-size: 21px;
+    border-radius: 5px;
+}
+/*///////////////////////////////////////////////Footer section////////////////////////////////////////////////////////*/
+body footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 10%;
+    width: 100%;
+    background-color: #f3f9fc;
+    color: #2e2e2e;
+    text-align: center;
+    opacity: 0.8;
+}
+body footer img[src="./imgs/small-logo.png"]{
+    box-shadow: 12px 0 8px -4px rgba(240, 241, 243, 0.904), -12px 0 8px -4px rgba(240, 241, 243, 0.904);
+    position: absolute;
+    margin-top: -25px;
+    margin-left: -20px;
+}
+body footer hr{
+    height: 0px;
+    border-top: 1px solid #2e2e2e;
+}
